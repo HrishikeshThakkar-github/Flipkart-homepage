@@ -135,13 +135,21 @@ body{
 }
 
 
-.footer-container{
-    
-}
 
 .py-5{
     background-color: black;
     color: #F1F3F6;
     
     padding: 0rem 15rem;
+}
+
+
+@media (max-width:992px)
+{
+    .dn{
+        display: none;
+    }
+    .instruments2{
+        width: 100%;
+    }
 }
