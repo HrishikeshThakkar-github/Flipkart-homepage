@@ -133,3 +133,15 @@ body{
     overflow-x: scroll;
     width: 80%;
 }
+
+
+.footer-container{
+    
+}
+
+.py-5{
+    background-color: black;
+    color: #F1F3F6;
+    
+    padding: 0rem 15rem;
+}
