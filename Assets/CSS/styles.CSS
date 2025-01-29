@@ -60,3 +60,37 @@ body{
 }
 
 /*-----navbar completed---*/
+
+.initial-items-list{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 83% 17%;
+    gap: 10px;
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
+.card{
+    margin: 0.5rem;
+}
+
+.dropdown-men{
+    display: none;
+}
+
+.btn-group{
+    position: relative;
+    display: inline-block;
+}
+
+.btn-group .btn1{
+    padding: 10px 20px;
+    color: white;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
