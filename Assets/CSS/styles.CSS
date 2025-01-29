@@ -1,7 +1,7 @@
 /*-----navbar---*/
 
 body{
-    background-color: #f1f1f1;
+    background-color: #F1F3F6;
 }
 
 .container-fluid,
@@ -17,12 +17,12 @@ body{
 }
 
 .input-group .input-group-text{
-    background-color: #f1f1f1;
+    background-color: #f0f5ff;
 
 }
 
 .input-group .form-control{
-    background-color: #f1f1f1;
+    background-color: #f0f5ff;
 }
 
 .listfor3dot{
@@ -52,28 +52,21 @@ body{
 }
 
 .btn-group .btn1:hover{
-    border: 2px solid #f1f1f1;
+    border: 2px solid #F1F3F6;
 }
 
 .btn-group:hover .listfor3dot{
     display: block;
 }
 
-/*-----navbar completed---*/
 
-.initial-items-list{
-    width: 85vw;
-    display: grid;
-    grid-template-columns: 83% 17%;
-    gap: 10px;
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    
 }
 
-.cards-wrapper{
-    display: flex;
-}
-
-.card{
-    margin: 0.5rem;
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
 }
 
 .dropdown-men{
@@ -94,6 +87,22 @@ body{
     border-radius: 5px;
     font-size: 16px;
 }
+/*-----navbar completed---*/
+
+
+#carouselExample{
+    width: 106%;
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
+.card{
+    margin: 0.5rem;
+}
+
+
 
 
 
@@ -103,15 +112,7 @@ body{
     margin-top: 70px;
 }
 
-.card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    overflow-y: hidden;
-    width: 18rem;
-    max-height: 350px;
-}
+
 .card img{
     max-height: 200px;
     max-width: 200px;
@@ -129,12 +130,50 @@ body{
 .instruments{
     overflow-x: scroll;
 }
+
+.instruments-down{
+    overflow-x: hidden;
+}
 .instruments2{
     overflow-x: scroll;
     width: 80%;
 }
 
+.initial-items-list {
+    background-color: white;
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 83% 17%;
+    gap: 10px;
 
+    
+}
+
+.cards-wrapper{
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.card{
+    margin: 0.5rem;
+    text-align: center;
+    border: 1px solid rgb(214, 214, 214) ;
+    padding: 1rem;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+
+    overflow-y: hidden;
+    width: 18rem;
+    max-height: 350px;
+
+}
 
 .py-5{
     background-color: black;
@@ -153,3 +192,13 @@ body{
         width: 100%;
     }
 }
+
+@media (max-width:500px)
+{
+    .instruments-down{
+        display: none;
+    }
+}
+
+
+
